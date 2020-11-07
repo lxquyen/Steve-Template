@@ -78,6 +78,9 @@
     <merge from="root/AndroidManifest.xml.ftl"
         to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml"/>
 
+    <merge from="root/res/values/styles.xml.ftl"
+        to="${escapeXmlAttribute(resOut)}/values/styles.xml"/>
+
     <dependency mavenUrl="androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"/>
     <dependency mavenUrl="androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"/>
     <dependency mavenUrl="androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02"/>
