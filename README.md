@@ -3,7 +3,7 @@ MVVM - Hilt - RxJava - Glide - Retrofit - RxPermission - Timber
 
 1. build.gradle (project)
 
-{
+```bash
     
     buildscript {
         ext.hilt_version = '2.29-alpha'
@@ -16,18 +16,17 @@ MVVM - Hilt - RxJava - Glide - Retrofit - RxPermission - Timber
             classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
         }
     }
-}
 
-allprojects {
+    allprojects {
 
-    repositories {
-        maven { url 'https://jitpack.io' }
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
     }
-}
-
+```
 2. build.gradle (app)
 
-{
+```bash
 
     apply plugin: 'kotlin-kapt'
 
@@ -43,4 +42,4 @@ allprojects {
             jvmTarget = '1.8'
         }
     }
-}
+```
