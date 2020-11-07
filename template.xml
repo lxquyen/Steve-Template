@@ -1,0 +1,9 @@
+<template name="Steve-Template" description="MVVM - Hilt - RxJava - Glide - Retrofit - RxPermission - Timber" format="5" revision="1">
+    <category value="Other" />
+    <formfactor value="Mobile" />
+
+    <parameter name="Package name" constraints="package" id="packageName" type="string" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+</template>
