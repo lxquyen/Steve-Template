@@ -96,12 +96,13 @@
     <dependency mavenUrl="io.reactivex.rxjava2:rxandroid:2.1.1"/>
     <dependency mavenUrl="io.reactivex.rxjava2:rxjava:2.2.19"/>
 
-    <dependency mavenUrl="com.google.code.gson:gson:2.8.6"/>
-    <dependency mavenUrl="com.squareup.okhttp3:okhttp:4.3.1"/>
-    <dependency mavenUrl="com.squareup.okhttp3:logging-interceptor:3.10.0"/>
-    <dependency mavenUrl="com.squareup.retrofit2:retrofit:2.7.1"/>
-    <dependency mavenUrl="com.squareup.retrofit2:adapter-rxjava2:2.7.1"/>
-    <dependency mavenUrl="com.squareup.retrofit2:converter-gson:2.7.1"/>
+    <dependency mavenUrl="com.google.code.gson:gson:2.8.2"/>
+    <dependency mavenUrl="com.squareup.okhttp3:okhttp:3.7.0"/>
+    <dependency mavenUrl="com.squareup.okhttp3:logging-interceptor:3.7.0"/>
+
+    <dependency mavenUrl="com.squareup.retrofit2:retrofit:2.4.0"/>
+    <dependency mavenUrl="com.squareup.retrofit2:adapter-rxjava2:2.4.0"/>
+    <dependency mavenUrl="com.squareup.retrofit2:converter-gson:2.4.0"/>
 
     <dependency mavenUrl="com.github.bumptech.glide:glide:4.11.0"/>
     <dependency mavenUrl="com.github.bumptech.glide:okhttp3-integration:4.11.0"/>
